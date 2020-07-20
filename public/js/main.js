@@ -13,7 +13,7 @@ var SWEATER = [
     { name: 'Puma', price: 1 },
     { name: 'Lacoste', price: 1 },
     { name: 'Hollister', price: 1 },
-    { name: 'A & F', price: 1 }
+    { name: 'Burberry', price: 1 }
 ];
 var TROUSERS = [
     { name: 'trousers #1', price: 10 },
