@@ -43,8 +43,8 @@ function HTMLsweaterProduct(con) {
                     <p class="card-text">Price: ${SWEATER[con-1].price}.00</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" onclick="cart2('${SWEATER[con-1].name}','${SWEATER[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" ><a style="color:inherit;" href="/cart">Buy</a></button>
-                            <button id="${btn}" type="button" onclick="cart('${SWEATER[con-1].name}','${SWEATER[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" >Add to cart</button>
+                            <button type="button" onclick="cart2('${SWEATER[con-1].name}','${SWEATER[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" ><a style="color:inherit;" href="/cart">Acheter</a></button>
+                            <button id="${btn}" type="button" onclick="cart('${SWEATER[con-1].name}','${SWEATER[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" >Ajouter au panier</button>
                         </div>
                         <small class="text-muted">Free shipping </small>
                     </div>
@@ -71,8 +71,8 @@ function HTMLtrousersProduct(con) {
                     <p class="card-text">Price: ${TROUSERS[con-1].price}.00</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" onclick="cart2('${TROUSERS[con-1].name}','${TROUSERS[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" ><a href="/cart" style="color:inherit;">Buy</a></button>
-                            <button id="${btn}" type="button" onclick="cart('${TROUSERS[con-1].name}','${TROUSERS[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" >Add to cart</button>
+                            <button type="button" onclick="cart2('${TROUSERS[con-1].name}','${TROUSERS[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" ><a href="/cart" style="color:inherit;">Acheter</a></button>
+                            <button id="${btn}" type="button" onclick="cart('${TROUSERS[con-1].name}','${TROUSERS[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" >Ajouter au panier</button>
                         </div>
                         <small class="text-muted">Free shipping </small>
                     </div>
@@ -99,8 +99,8 @@ function HTMLshoesProduct(con) {
                     <p class="card-text">Price: ${SHOES[con-1].price}.00</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" onclick="cart2('${SHOES[con-1].name}','${SHOES[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" ><a href="/cart" style="color:inherit;">Buy</a></button>
-                            <button id="${btn}" type="button" onclick="cart('${SHOES[con-1].name}','${SHOES[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" >Add to cart</button>
+                            <button type="button" onclick="cart2('${SHOES[con-1].name}','${SHOES[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" ><a href="/cart" style="color:inherit;">Acheter</a></button>
+                            <button id="${btn}" type="button" onclick="cart('${SHOES[con-1].name}','${SHOES[con-1].price}','${URL}','${con}','${btn}')" class="btn btn-sm btn-outline-secondary" >Ajouter au panier</button>
                         </div>
                         <small class="text-muted">Free shipping </small>
                     </div>
