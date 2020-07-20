@@ -15,7 +15,7 @@ router.get('/orders', (req, res) => {
     res.render('orders');
 });
 router.get('/admin', (req, res) => {
-    Order.find((err, docs) => {
+    Order.find(req.params.id, (err, docs) => {
         if (!err) {
             res.render("admin", {
                 order: docs
