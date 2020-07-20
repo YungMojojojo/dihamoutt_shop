@@ -27,7 +27,7 @@ var SHOES = [
 ];
 //HTML
 function HTMLsweaterProduct(con) {
-    let URL = `../img/sweaters/sweater${con}.jpeg`;
+    let URL = `../img/sweaters/sweater${con}.jpg`;
     let btn = `btnsweater${con}`;
     return `
         <div class="col-md-4">
@@ -55,7 +55,7 @@ function HTMLsweaterProduct(con) {
 }
 
 function HTMLtrousersProduct(con) {
-    let URL = `img/trousers/trousers${con}.jpeg`;
+    let URL = `img/trousers/trousers${con}.jpg`;
     let btn = `btntrousers${con}`;
     return `
         <div class="col-md-4">
@@ -83,7 +83,7 @@ function HTMLtrousersProduct(con) {
 }
 
 function HTMLshoesProduct(con) {
-    let URL = `img/shoes/shoes${con}.jpeg`;
+    let URL = `img/shoes/shoes${con}.jpg`;
     let btn = `btnshoes${con}`;
     return `
         <div class="col-md-4">
