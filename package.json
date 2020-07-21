@@ -18,7 +18,11 @@
         "express-handlebars": "^5.1.0",
         "mongoose": "^5.9.25"
     },
+    "engines": {
+        "node": "12.13.0"
+    },
     "devDependencies": {
         "nodemon": "^2.0.4"
     }
+
 }
